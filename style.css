@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Vollkorn&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Vollkorn', serif;
+}
+
+.navbar {
+    height: 66px;
+    width: 100%;
+    background: #504f4f;
+
+}
+
+.nav1 {
+    height: 66px;
+    background: #453232;
+    width: 400px;
+}
