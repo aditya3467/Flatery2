@@ -172,3 +172,39 @@
 .login:hover,.properties:hover{
     background-color: var(--theme) ;
 }
+
+.slider{
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.30)),url(./Housing/res/homePagebg.jpg) ;
+    opacity: 2;
+    /* filter: brightness(40%); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+}
+
+.slider .text1{
+    color: white;
+    font-size: 5rem;
+
+    margin-left: 25%;
+    padding-top: 6%;
+    line-height: 95%;
+
+}
+.slider .text2{
+    color: white;
+    font-size: 2.5rem;
+    /* height: 2rem; */
+    margin-left: 40%;
+    padding-top: 5%;
+
+}
+.slider .text3{
+    color: white;
+    font-size: 2.5rem;
+    /* height: 2rem; */
+    margin-left: 45%;
+    /* padding-top: 5%; */
+
+}
