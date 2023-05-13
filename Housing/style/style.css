@@ -27,6 +27,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     display: flex;
+    position: sticky;
 
 }
 
@@ -35,7 +36,7 @@ body {
     height: 66px;
     align-items: center;
     /* background: #453232; */
-    width: 400px;
+    width: 30%;
 }
 
 .nav1 img{
@@ -45,6 +46,7 @@ body {
 .flatery{
     font-size: 28px;
     display: flex;
+    width: auto;
     padding: 1rem;
     background: linear-gradient(to right, #3674C6 54%, #000000 50%);
     background-clip: text;
@@ -55,11 +57,11 @@ body {
 }
 .contact{
     display: flex;
-    width: 120px;
+    width: 25%;
     height: 41px;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 10%;
     border-radius: 22px;
     /* border: 2px solid red; */
 
@@ -69,19 +71,19 @@ body {
 }
 
 .contact img{
-    width: 25px;
+    width: 60%;
     height: 20px;
     margin-right: 5px;
     
 }
 
 .nav2{
-    width: 700px;
+    width: 70%;
     position: absolute;
     right: 0;
     /* background: #b78484; */
-    align-items: center;
-    justify-content: c;
+    align-items:center;
+    justify-content:flex-end;
     height: 66px;
     display: flex;
     /* margin: auto; */
@@ -91,7 +93,7 @@ body {
 
 .nav2 .home {
     display: flex;
-    width: 100px;
+    width: 10%;
     align-items: center;
     justify-content: center;
     height: 41px;
@@ -113,7 +115,7 @@ body {
 
 .services{
     height: 41px;
-    width: 130px;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,7 +130,7 @@ body {
 
 .add{
     height: 41px;
-    width: 166px;
+    width: 17%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +148,7 @@ body {
 }
 .properties{
     height: 41px;
-    width: 166px;
+    width: 17%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +167,7 @@ body {
 
 .navbar .nav2 .login{
     height: 41px;
-    width: 83px;
+    width: 12%;
     display: flex;
     align-items: center;
     justify-content: center;
